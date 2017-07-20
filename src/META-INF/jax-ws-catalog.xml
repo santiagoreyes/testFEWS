@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://192.168.56.20:60100/FEServicio.svc?wsdl" uri="wsdl/192.168.56.20_60100/FEServicio.svc.wsdl"/>
+    <system systemId="http://192.168.56.20:60100/FEServicio.svc?xsd=xsd0" uri="wsdl/192.168.56.20_60100/FEServicio.svc.xsd_xsd0.xsd"/>
+    <system systemId="http://192.168.56.20:60100/FEServicio.svc?xsd=xsd1" uri="wsdl/192.168.56.20_60100/FEServicio.svc.xsd_xsd1.xsd"/>
+    <system systemId="http://192.168.56.20:60100/FEServicio.svc?xsd=xsd2" uri="wsdl/192.168.56.20_60100/FEServicio.svc.xsd_xsd2.xsd"/>
+    <system systemId="http://192.168.56.20:60100/FEServicio.svc?xsd=xsd3" uri="wsdl/192.168.56.20_60100/FEServicio.svc.xsd_xsd3.xsd"/>
+</catalog>

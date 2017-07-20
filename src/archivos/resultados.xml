@@ -1,0 +1,118 @@
+<escenarios>
+   <escenarios class="java.util.ArrayList">
+      <escenario>
+         <id>1</id>
+         <descripcion>Primer escenario</descripcion>
+         <esperado>OK</esperado>
+         <campos class="java.util.ArrayList">
+            <campo nombre="descripcion" valor="Primer escenario"/>
+            <campo nombre="rucReceptor" valor="9-9-9"/>
+            <campo nombre="codigoUnicoDocumento" valor="8000000101"/>
+            <campo nombre="id" valor="1"/>
+            <campo nombre="esperado" valor="OK"/>
+            <campo nombre="campo2" valor="2189212"/>
+         </campos>
+         <respuesta>
+            <resultadoProceso>FINALIZADO:RECHAZO</resultadoProceso>
+            <errores class="java.util.ArrayList">
+               <string> --- YA EXISTE UNA FE CON  CUFE 8000000101 APROBADO</string>
+            </errores>
+         </respuesta>
+      </escenario>
+      <escenario>
+         <id>2</id>
+         <descripcion>Segundo escenario</descripcion>
+         <esperado>OK</esperado>
+         <campos class="java.util.ArrayList">
+            <campo nombre="descripcion" valor="Segundo escenario"/>
+            <campo nombre="rucReceptor" valor="9-9-9"/>
+            <campo nombre="codigoUnicoDocumento" valor="8000000102"/>
+            <campo nombre="id" valor="2"/>
+            <campo nombre="esperado" valor="OK"/>
+            <campo nombre="campo2" valor="2145612"/>
+         </campos>
+         <respuesta>
+            <resultadoProceso>FINALIZADO:RECHAZO</resultadoProceso>
+            <errores class="java.util.ArrayList">
+               <string> --- YA EXISTE UNA FE CON  CUFE 8000000102 APROBADO</string>
+            </errores>
+         </respuesta>
+      </escenario>
+      <escenario>
+         <id>3</id>
+         <descripcion>Tercer escenario</descripcion>
+         <esperado>OK</esperado>
+         <campos class="java.util.ArrayList">
+            <campo nombre="descripcion" valor="Tercer escenario"/>
+            <campo nombre="rucReceptor" valor="9-9-9"/>
+            <campo nombre="codigoUnicoDocumento" valor="8000000103"/>
+            <campo nombre="id" valor="3"/>
+            <campo nombre="esperado" valor="OK"/>
+            <campo nombre="campo2" valor="2145612"/>
+         </campos>
+         <respuesta>
+            <resultadoProceso>FINALIZADO:RECHAZO</resultadoProceso>
+            <errores class="java.util.ArrayList">
+               <string> --- YA EXISTE UNA FE CON  CUFE 8000000103 APROBADO</string>
+            </errores>
+         </respuesta>
+      </escenario>
+      <escenario>
+         <id>4</id>
+         <descripcion>Cuarto escenario</descripcion>
+         <esperado>OK</esperado>
+         <campos class="java.util.ArrayList">
+            <campo nombre="descripcion" valor="Cuarto escenario"/>
+            <campo nombre="rucReceptor" valor="9-9-9"/>
+            <campo nombre="codigoUnicoDocumento" valor="8000000104"/>
+            <campo nombre="id" valor="4"/>
+            <campo nombre="esperado" valor="OK"/>
+            <campo nombre="campo2" valor="2145612"/>
+         </campos>
+         <respuesta>
+            <resultadoProceso>FINALIZADO:RECHAZO</resultadoProceso>
+            <errores class="java.util.ArrayList">
+               <string> --- YA EXISTE UNA FE CON  CUFE 8000000104 APROBADO</string>
+            </errores>
+         </respuesta>
+      </escenario>
+      <escenario>
+         <id>5</id>
+         <descripcion>Quinto escenario</descripcion>
+         <esperado>OK</esperado>
+         <campos class="java.util.ArrayList">
+            <campo nombre="descripcion" valor="Quinto escenario"/>
+            <campo nombre="rucReceptor" valor="9-9-9"/>
+            <campo nombre="codigoUnicoDocumento" valor="8000000105"/>
+            <campo nombre="id" valor="5"/>
+            <campo nombre="esperado" valor="OK"/>
+            <campo nombre="campo2" valor="2145612"/>
+         </campos>
+         <respuesta>
+            <resultadoProceso>FINALIZADO:RECHAZO</resultadoProceso>
+            <errores class="java.util.ArrayList">
+               <string> --- YA EXISTE UNA FE CON  CUFE 8000000105 APROBADO</string>
+            </errores>
+         </respuesta>
+      </escenario>
+      <escenario>
+         <id>6</id>
+         <descripcion>Sexto escenario</descripcion>
+         <esperado>OK</esperado>
+         <campos class="java.util.ArrayList">
+            <campo nombre="descripcion" valor="Sexto escenario"/>
+            <campo nombre="rucReceptor" valor="1-1-1"/>
+            <campo nombre="codigoUnicoDocumento" valor="8000000106"/>
+            <campo nombre="id" valor="6"/>
+            <campo nombre="esperado" valor="OK"/>
+            <campo nombre="campo2" valor="2145612"/>
+         </campos>
+         <respuesta>
+            <resultadoProceso>FINALIZADO:RECHAZO</resultadoProceso>
+            <errores class="java.util.ArrayList">
+               <string> --- OPERACION ENTRE CONTRIBUYENTES, RUC_RECEPTOR 1-1-1 NO ESTA ACTIVO</string>
+            </errores>
+         </respuesta>
+      </escenario>
+   </escenarios>
+</escenarios>

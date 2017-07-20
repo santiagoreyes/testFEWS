@@ -1,0 +1,7 @@
+{
+        "conf":[
+            {"campo": "codigoUnicoDocumento","xpath": "//codigoUnicoDocumento"},
+            {"campo": "rucEmisor","xpath": "//emisor/ruc"},
+            {"campo": "rucReceptor","xpath": "//receptor/ruc"}
+        ]
+}

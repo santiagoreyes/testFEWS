@@ -1,0 +1,114 @@
+<ptyDE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<infoGeneral>
+		<version>1</version>
+		<ambiente>PRUEBAS</ambiente>
+	</infoGeneral>
+	<factura>
+		<identificacion>
+			<tipoDocumento>FACTURA</tipoDocumento>
+			<tipoFactura>FACTURA</tipoFactura>
+			<tipoOperacion>B2B</tipoOperacion>
+			<codigoUnicoDocumento>0000000001</codigoUnicoDocumento>
+			<fechaHoraEmision>2017-07-19T09:30:10Z</fechaHoraEmision>
+		</identificacion>
+		<emisor>
+			<ruc>1-1-1</ruc>
+			<dv>12</dv>
+			<razonSocial>LECHE SALUDABLE S.A.</razonSocial>
+			<direccion>Ed. Acordeon Piso 17, Av Balboa</direccion>
+			<provincia>Panama</provincia>
+			<distrito>Panama</distrito>
+			<corregimiento>Bellavista</corregimiento>
+			<telefono>233-2333</telefono>
+			<nombreComercial>LECHESIN</nombreComercial>
+		</emisor>
+		<puntoEmision>
+			<codigoSucursal>4</codigoSucursal>
+			<direccionSucursal>Av. Transistmica 3456</direccionSucursal>
+			<provincia>PANAMA</provincia>
+			<distrito>PANAMA</distrito>
+			<corregimiento>BETANIA</corregimiento>
+			<codigoPuntoFacturacion>001</codigoPuntoFacturacion>
+			<operador>Juan Perez</operador>
+		</puntoEmision>
+		<receptor>
+			<ruc>9-9-9</ruc>
+			<dv>20</dv>
+			<razonSocial>SUPER TIENE TODO S.A.</razonSocial>
+			<direccion>Ed. Ogawa, Piso 8, Av. Espana</direccion>
+			<provincia>Panama</provincia>
+			<distrito>Panama</distrito>
+			<corregimiento>Bellavista</corregimiento>
+			<telefono>288-0292</telefono>
+			<nombreComercial>LALALA SUPER</nombreComercial>
+		</receptor>
+		<detalles>
+			<detalle>
+				<numero>1</numero>
+				<descripcion>Olla</descripcion>
+				<unidadMedida>Unidad</unidadMedida>
+				<cantidad>1</cantidad>
+				<precioUnitario>12</precioUnitario>
+				<precioConDescuento>10</precioConDescuento>
+				<subtotalSinImpuesto>10</subtotalSinImpuesto>
+				<codigoImpuesto>ITBMS_7</codigoImpuesto>
+				<porcentajeImpuesto>7</porcentajeImpuesto>
+				<montoImpuesto>0.70</montoImpuesto>
+				<subtotalConImpuesto>10.70</subtotalConImpuesto>
+			</detalle>
+			<detalle>
+				<numero>2</numero>
+				<descripcion>Tapa de Olla</descripcion>
+				<unidadMedida>Unidad</unidadMedida>
+				<cantidad>1</cantidad>
+				<precioUnitario>2</precioUnitario>
+				<precioConDescuento>0</precioConDescuento>
+				<subtotalSinImpuesto>0</subtotalSinImpuesto>
+				<codigoImpuesto>ITBMS_7</codigoImpuesto>
+				<porcentajeImpuesto>7</porcentajeImpuesto>
+				<montoImpuesto>0.00</montoImpuesto>
+				<subtotalConImpuesto>0.00</subtotalConImpuesto>
+			</detalle>
+		</detalles>
+		<pago>
+			<formaPago>Contado</formaPago>
+			<efectivo>0.70</efectivo>
+			<tarjeta>10.00</tarjeta>
+			<otros>0.00</otros>
+		</pago>
+		<totales>
+			<descuento>0.00</descuento>
+			<subtotalExento>0.00</subtotalExento>
+			<subtotalImpuesto>0.70</subtotalImpuesto>
+			<subtotal>10.00</subtotal>
+            <impuestos>
+                <impuesto>
+                    <codigo>ITBMS_7</codigo>
+                    <porcentaje>7</porcentaje>
+                    <montoImpuesto>0.70</montoImpuesto>
+                </impuesto>
+            </impuestos>			
+               <isrTotal>0</isrTotal>
+			<itbmsTotal>0.70</itbmsTotal>
+			<retencionContractual>0.00</retencionContractual>
+			<retencionItbms>0.00</retencionItbms>
+			<retencionRenta>0.00</retencionRenta>
+			<total>10.70</total>
+		</totales>
+	</factura>
+	 <referencias>
+			<referencia>
+			<tipoDocumentoReferencia>Orden de Compra</tipoDocumentoReferencia>
+			<numeroDocumentoReferencia>OC-23323-2016</numeroDocumentoReferencia>
+			<descripcion>Orden de compra trimestral</descripcion>
+		</referencia>
+	</referencias>
+	<datosAdicionales>
+		<dato nombre="Terminos">Entregado con revision de mercancia</dato>
+		<dato nombre="Garantia">Garantia de 60 dias</dato>
+	</datosAdicionales>
+	<firmas>
+		<firmaEmisor>firma1</firmaEmisor>
+		<firmaDGI>firmaDgi</firmaDGI>
+	</firmas>
+</ptyDE>

@@ -1,0 +1,7 @@
+id,descripcion,esperado,codigoUnicoDocumento,campo2,rucReceptor
+1,"Primer escenario",OK,8000000101,2189212,9-9-9
+2,"Segundo escenario",OK,8000000102,2145612,9-9-9
+3,"Tercer escenario",OK,8000000103,2145612,9-9-9
+4,"Cuarto escenario",OK,8000000104,2145612,9-9-9
+5,"Quinto escenario",OK,8000000105,2145612,9-9-9
+6,"Sexto escenario",OK,8000000106,2145612,1-1-1
